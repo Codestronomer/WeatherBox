@@ -10,9 +10,9 @@ geocodeAddress = (address, callback) => {
             callback('Unable to find that address.')
         } else {
             callback(undefined, {
-                Address: body.features[0].place_name,
-                Longitude: body.features[0].geometry.coordinates[0],
-                Latitude: body.features[0].geometry.coordinates[1]
+                address: body.features[0].place_name,
+                latitude: body.features[0].geometry.coordinates[1],
+                longitude: body.features[0].geometry.coordinates[0]
             })
         };
     });
