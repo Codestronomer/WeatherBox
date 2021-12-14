@@ -28,4 +28,3 @@ const address = geocode.geocodeAddress(argv.address, (errorMessage, results) => 
     }
 })
 
-// weather.getWeather(19147)
