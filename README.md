@@ -25,13 +25,14 @@ $ npm install
 ## Usage:
 ```
 $ node app.js
+$ node app.js --help
 ```
 ## Configuration
 
 You can customize the application by setting your API key and unit as an environment variable. Here are the available configuration options:
 
-- `api_key`: Your API key from the weather service provider.
-- `units`: Preferred units for temperature (Celsius or Fahrenheit).
+- `mapboxkey`: Your API key from the geocoding data provider (mapbox).
+- `access_key`: Your API key for the weather data provider (Weatherstack).
 
 ## Credits
 
