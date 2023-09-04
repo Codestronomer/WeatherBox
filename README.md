@@ -28,14 +28,15 @@ $ node app.js
 ```
 ## Configuration
 
-You can customize the application by modifying the `config.ini` file. Here are the available configuration options:
+You can customize the application by setting your API key and unit as an environment variable. Here are the available configuration options:
 
 - `api_key`: Your API key from the weather service provider.
 - `units`: Preferred units for temperature (Celsius or Fahrenheit).
 
 ## Credits
 
-- This application uses data from [OpenWeatherMap](https://openweathermap.org/). Review their terms of service and attribution requirements if you plan to deploy this application.
+- This application uses data from [Weather](https://weatherstack.com/). Review their terms of service and attribution requirements if you plan to deploy this application.
+- This application also gets geocoding data from [Mapbox](https://www.mapbox.com/). Review their terms of service and attribution requirements if you plan to deploy this application
 
 ## License
 
